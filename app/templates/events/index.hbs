@@ -1,0 +1,12 @@
+
+{{#each model as |event|}}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">{{event.name}}</h3>
+        </div>
+        <div class="panel-body">
+            <p>Building: {{event.building}}</p>
+            <p>Room Number: {{event.roomNumber}}</p>
+        </div>
+    </div>
+{{/each}}
